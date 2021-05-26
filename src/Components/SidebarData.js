@@ -16,27 +16,10 @@ export const SidebarData = [
         cName : "nav-text"
     },
     {
-        title : "Report",
-        path : "/report",
-        icon : <HeroIcons.HiDocumentText />,
-        cName : "nav-text"
-    },
-    {
-        title : "Notification",
+        title : "Profile",
         path : "/",
-        icon : <HeroIcons.HiBell />,
+        icon : <HeroIcons.HiShoppingCart />,
         cName : "nav-text"
     },
-    {
-        title : "Account",
-        path : "/",
-        icon : <HeroIcons.HiUser />,
-        cName : "nav-text"
-    },
-    {
-        title : "Support",
-        path : "/",
-        icon : <HeroIcons.HiMailOpen />,
-        cName : "nav-text"
-    },
+    
 ]

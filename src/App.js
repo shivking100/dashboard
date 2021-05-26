@@ -6,20 +6,16 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar';
 import Home from './pages/Home';
-import Report from './pages/Report';
+
 
 function App() {
-  return (
-    <>
+  return (   
       <Router>
         <Navbar />
         <Switch>
-        <Route path ="/" exact component={Home} />
-        <Route path ="/report" component={Report} />
-        
+        <Route path ="/" exact component={Home} />               
         </Switch>
-      </Router>
-    </>
+      </Router>    
   );
 }
 
